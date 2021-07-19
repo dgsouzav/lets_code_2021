@@ -5,10 +5,11 @@
 
 // Métodos são computacionalmente idênticos às funções. Chamamos de métodos e não funções por dois motivos:
 
-// Por estar no contexto POO e no interior de uma classe.
-// Por ele poder manipular o estado interno de um objeto.
-// Leia "estado" acima como o conjunto de valores dos atributos.
+// 1. Por estar no contexto POO e no interior de uma classe.
+// 2. Por ele poder manipular o estado interno de um objeto.
 
+
+// Leia "estado" acima como o conjunto de valores dos atributos.
 // Para declarar um método em uma classe basta fazer, após o construtor, uma função sem usar a palavra function usamos apenas o nome. Também não podemos usar arrow functions nesse contexto por conta do mesmo problema com this. que tivemos nos objetos.
 
 class Quadrado{
